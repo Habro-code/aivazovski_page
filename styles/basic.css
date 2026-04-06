@@ -1,29 +1,41 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
     font-family: "Roboto", sans-serif;
     background-color: var(--bg-main);
 }
-ul{
+
+ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-a{
+a {
     text-decoration: none;
     color: unset;
 }
 
-h1, p{
+h1,
+h2,
+p {
     margin: 0;
 }
 
-.container{
+.container {
     margin: 0 auto;
     max-width: 970px;
     padding: 0 10px;
+}
+
+.divider {
+    max-width: 420px;
+    width: 100%;
+    height: 1px;
+    background-color: var(--color-black);
+    border: none;
+    margin: 0 auto;
 }

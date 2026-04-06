@@ -6,7 +6,7 @@
     width: 100%;
 }
 
-.nav::after{
+.nav::after {
     content: "";
     display: block;
     width: 100%;
@@ -30,7 +30,7 @@
     position: relative;
 }
 
-.nav-link::after{
+.nav-link::after {
     content: "";
     position: absolute;
     height: 1px;
@@ -45,12 +45,12 @@
     color: var(--color-black);
 }
 
-.nav-link:hover::after{
+.nav-link:hover::after {
     right: 0;
 }
 
-@media(max-width: 480px){
-    .header{
+@media(max-width: 480px) {
+    .header {
         display: none;
     }
 }
